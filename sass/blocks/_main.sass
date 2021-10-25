@@ -1,0 +1,72 @@
+.main
+  background-color: $light
+  color: #fff
+  padding-top: 15px
+  &-salon_list
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 30px
+    &__item
+      &--button
+        background-color: #fff
+        padding: 5px 10px 5px 10px
+  &-wrapper
+    display: grid
+    grid-template-columns: 40% 60%
+  &-text
+    display: grid
+    grid-template-columns: 200px 300px
+    grid-template-rows: 50% 50%
+    &_wrapper
+      grid-column: 1 / 3
+    &__title
+      font-style: normal
+      font-weight: bold
+      font-size: 38px
+      line-height: 150%
+    &__paraghraf
+      font-style: normal
+      font-weight: 500
+      font-size: 14px
+      line-height: 150%
+      margin-bottom: 40px
+    &__button
+      background-color: $dark
+      color: #fff
+      text-transform: uppercase
+      padding: 10px 15px 10px 15px
+      &:hover
+        cursor: pointer
+    &__button_slider
+      display: flex
+      justify-content: end
+      align-items: center
+      margin-right: 60px
+      grid-column: 2 / 3
+      &--prev
+        border: 1px solid #fff
+        border-right: none
+        padding: 15px 10px 15px 10px
+        &:hover
+          cursor: pointer
+      &--next
+        border: 1px solid #fff
+        padding: 15px 10px 15px 10px
+        &:hover
+          cursor: pointer
+  &-reviews
+    display: flex
+    justify-content: end
+    &__pagination
+      color: #fff
+      padding: 20px 150px 20px 150px
+      background-color: $dark
+      &_wrapper
+        display: flex
+        justify-content: space-between
+        grid-column: 1 / 3
+.swiper
+  width: 90%
+  height: 100%
+  margin: 0

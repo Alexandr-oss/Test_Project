@@ -1,0 +1,40 @@
+.header
+  &-wrapper
+    display: grid
+    align-items: center
+    grid-template-columns: 180px 170px 170px 290px 1fr 1fr 1fr 1fr
+    &__item
+      display: flex
+      align-items: center
+      justify-content: center
+      border-right: 1px solid #c4c4c4
+      height: 70px
+      &--logo
+        border-left: 1px solid #c4c4c4
+      &--tel
+        font-weight: 700
+        font-size: 16px
+        line-height: 19px
+      &--salon
+        display: flex
+        align-items: center
+      &--eye
+        &:hover
+          cursor: pointer
+      &--social
+.item
+  &-logo
+    width: 150px
+  &-salon
+    &__text
+      margin-right: 5px
+      font-weight: 500
+      font-size: 16px
+  &-eye
+    display: flex
+    align-items: center
+    background-color: $dark
+    padding: 7px
+    &__text
+      margin-left: 5px
+      color: #fff
