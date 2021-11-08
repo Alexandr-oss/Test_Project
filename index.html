@@ -18,7 +18,10 @@
           <div class="header-wrapper__item header-wrapper__item--tel">
             <span>+7 (123) 456 78 90</span>
           </div>
-          <div class="header-wrapper__item header-wrapper__item--salon">
+          <div
+            data-toggle="menu"
+            class="header-wrapper__item header-wrapper__item--salon"
+          >
             <span class="item-salon__text">Наши салоны</span>
             <img src="img/salon-arrow.svg" alt="" />
           </div>
@@ -99,11 +102,21 @@
           </div>
           <!--/.reviews-->
           <div class="main-reviews__pagination_wrapper">
-            <button class="main-reviews__pagination">
+            <button
+              class="main-reviews__pagination main-reviews__pagination--one"
+            >
               Комплексные процедуры
             </button>
-            <button class="main-reviews__pagination">Центр обучения</button>
-            <button class="main-reviews__pagination">VIP клиентам</button>
+            <button
+              class="main-reviews__pagination main-reviews__pagination--two"
+            >
+              Центр обучения
+            </button>
+            <button
+              class="main-reviews__pagination main-reviews__pagination--fhree"
+            >
+              VIP клиентам
+            </button>
           </div>
           <!-- /.main-reviews__pagination_wrapper -->
         </div>
@@ -111,6 +124,126 @@
       </div>
       <!--/.container-->
     </section>
+    <!--/.main-->
+    <section class="sertification">
+      <div class="container">
+        <div class="sertification-wrapper">
+          <div class="sertification-inovations">
+            <div class="sertification-inovations__info">
+              <button class="sertification-inovations__button">Иновации</button>
+              <h2 class="sertification-inovations__title">
+                Мы практикуем новый курс <br />
+                процедур аппаратной косметологии
+              </h2>
+              <button class="sertification-inovations__button_datail">
+                <img src="img/Arrow_datail.svg" alt="" class="datail-arrow" />
+                <span class="datail-text">Подобнее</span>
+              </button>
+            </div>
+            <div class="sertification-inovations__image">
+              <img src="img/innovations_img.png" alt="" />
+            </div>
+          </div>
+          <!-- /.inovations -->
+          <div class="sertification-beauty">
+            <button class="sertification-beauty_button">
+              Эстетика красоты
+            </button>
+            <div class="sertification-beauty__info">
+              <div class="sertification-beauty__text">
+                <span class="sertification-beauty__item"
+                  ><strong class="sertification-beauty__item--number"
+                    >78</strong
+                  >
+                  Современных центра <br />
+                  в странах СНГ</span
+                ><span class="sertification-beauty__item"
+                  ><strong class="sertification-beauty__item--number"
+                    >78</strong
+                  >
+                  Современных центра <br />
+                  в странах СНГ</span
+                ><span class="sertification-beauty__item"
+                  ><strong class="sertification-beauty__item--number"
+                    >20</strong
+                  >
+                  Уникальных патентов <br />
+                  в области косметологии</span
+                ><span class="sertification-beauty__item"
+                  ><strong class="sertification-beauty__item--number"
+                    >78</strong
+                  >
+                  Современных центра <br />
+                  в странах СНГ</span
+                >
+              </div>
+              <div class="sertification-beauty__image">
+                <img src="img/patent.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- /.beauty -->
+        </div>
+      </div>
+      <!--/.container-->
+    </section>
+    <section class="news">
+      <div class="container">
+        <div class="news-wrapper">
+          <div class="news-menu">
+            <h3 class="news-menu__title">Новости</h3>
+            <ul class="news-menu__items">
+              <li class="news-menu__item">
+                Почему рекомендуется посещать профессионального косметолога.
+                Мнение специалистов центра
+              </li>
+              <li class="news-menu__item">
+                Стандартизация деятельности клиник в соответствии с ISO
+                9001:2015.
+              </li>
+              <li class="news-menu__item">
+                Индивидуальный подход к каждому пациенту и подбор оптимальных
+                косметологических методик.
+              </li>
+            </ul>
+          </div>
+          <div class="news-text">
+            <h3 class="news-text__title">
+              Почему рекомендуется посещать профессионального косметолога.
+              Мнение специалистов центра
+            </h3>
+            <ul class="news-text__items">
+              <li class="news-text__item">
+                Процедуры аппаратной косметологии на оборудовании экспертного
+                класса от ведущих мировых производителей могут проводиться в
+                любом возрасте и решать широкий спектр проблем: возрастные
+                изменения, покраснения, акне и купероз, потеря тонуса и
+                упругости кожи, отечность, целлюлит и т. п.
+              </li>
+              <li class="news-text__item">
+                С помощью инъекционных методик мы можем разгладить морщины,
+                провести объёмное моделирование, увлажнить кожу, ввести активные
+                вещества в поверхностные и средние слои кожи, запустить процессы
+                омоложения.
+              </li>
+              <li class="news-text__item">
+                Лазерное и фотоомоложение помогут запустить процесс синтеза
+                собственного коллагена, улучшить светооптические свойства кожи,
+                а также получить максимальный эффект подтяжки лица без уколов и
+                длительного восстановительного периода.
+              </li>
+              <li class="news-text__item">
+                Курс процедур лазерной эпиляции поможет навсегда избавиться от
+                проблемы нежелательных волос.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--/.news-wrapper-->
+      </div>
+      <!--/.container-->
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

@@ -2,11 +2,17 @@
   background-color: $light
   color: #fff
   padding-top: 15px
+  margin-bottom: 80px
   &-salon_list
     display: flex
     justify-content: space-between
     align-items: center
     margin-bottom: 30px
+    visibility: hidden
+    opacity: 0
+    &--visible
+      visibility: visible
+      opacity: 1
     &__item
       &--button
         background-color: #fff
@@ -59,13 +65,29 @@
     display: flex
     justify-content: end
     &__pagination
-      color: #fff
-      padding: 20px 150px 20px 150px
+      display: flex
+      align-items: center
+      justify-content: center
       background-color: $dark
+      font-size: 17px
+      color: #fff
+      width: 100%
+      &:hover
+        cursor: pointer
+        background-color: $light
+      &--one
+        width: 50%
+        padding: 24px 0 24px 0
+      &--two
+        width: 25%
+        padding: 24px 0 24px 0
+      &--fhree
+        width: 25%
+        padding: 24px 0 24px 0
       &_wrapper
         display: flex
-        justify-content: space-between
         grid-column: 1 / 3
+        width: 100%
 .swiper
   width: 90%
   height: 100%
