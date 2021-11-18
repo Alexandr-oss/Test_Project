@@ -1,0 +1,41 @@
+.footer
+  &-wrapper
+    display: grid
+    align-items: center
+    grid-template-columns: 600px 290px 1fr 1fr 1fr 1fr
+    &__item
+      display: flex
+      align-items: center
+      justify-content: center
+      padding-top: 25px
+      height: 40px
+      border-right: 1px solid #c4c4c4
+      border-top: 1px solid #c4c4c4
+      &--text
+        border-left: 1px solid #c4c4c4
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        justify-content: space-between
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        padding-left: 10px
+        padding-right: 10px
+      &--link
+        &:hover
+          cursor: pointer
+          border-bottom: 1px solid #000
+      &--eye
+        &:hover
+          cursor: pointer
+.item
+  &-eye
+    display: flex
+    align-items: center
+    background-color: $dark
+    padding: 7px
+    &__text
+      margin-left: 5px
+      color: #fff
+      font-size: 14px
