@@ -1024,10 +1024,10 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 25px;
   height: 40px;
-  border-right: 1px solid #c4c4c4;
   border-top: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
+  height: 60px;
 }
 
 .footer-wrapper__item--text {
