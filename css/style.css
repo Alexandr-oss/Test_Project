@@ -777,6 +777,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .news-menu {
@@ -813,8 +814,8 @@ template {
 }
 
 .news-menu__item:hover {
-  cursor: pointer;
   background-color: #00868A;
+  cursor: pointer;
 }
 
 .news-text {
@@ -831,7 +832,7 @@ template {
   line-height: 150%;
 }
 
-.news-text__item {
+.news-text__li {
   background-image: url(img/sircle.png);
   background-position: center center;
   margin-bottom: 25px;
@@ -911,11 +912,12 @@ template {
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
+  text-align: left;
 }
 
 .package-button {
   border: 1px solid #fff;
-  padding: 10px 15px;
+  padding: 13px 10px;
 }
 
 .services {
